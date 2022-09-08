@@ -13,3 +13,8 @@ jobs:
       - name: test
         id: tester
         run: bash starter.sh
+      - name: Hello world actions step
+        id: hello
+        uses: ashthetis/my-javascript-action@main
+        with:
+          who-to-greet: 'ashthetis'
