@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: ashthetis/action-caller@main
+      - name: Test private action
+        run: |
+          ls ./
       - name: test
         id: tester
         run: ./starter.sh
