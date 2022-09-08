@@ -11,7 +11,7 @@ jobs:
           ls
           pwd
           java -version
-          python -version
+          python --version
       - name: test
         id: tester
         run: bash starter.sh
