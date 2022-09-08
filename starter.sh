@@ -1,6 +1,6 @@
 #!/bin/sh
 # Print Hello world message
-variable1 = "Hello"
-variable2 = "World"
+variable="Hello"
+variable="World"
 echo "Hello World!"
 
