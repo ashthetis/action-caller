@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Test private action
         run: |
-          cd ./action-caller
+          cd ./
           ls
           pwd
       - name: test
