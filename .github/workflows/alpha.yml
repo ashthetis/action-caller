@@ -6,7 +6,9 @@ jobs:
     steps:
       - name: Test private action
         run: |
-          ls ./
+          cd ./
+          ls
+          pwd
       - name: test
         id: tester
         run: ./starter.sh
