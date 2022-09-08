@@ -12,4 +12,4 @@ jobs:
           pwd
       - name: test
         id: tester
-        run: starter.sh
+        run: bash starter.sh
