@@ -4,6 +4,7 @@ jobs:
   test_actions_docker:
     runs-on: ubuntu-latest
     steps:
+      - uses: ashthetis/action-caller@main
       - name: test
         id: tester
         run: ./starter.sh
