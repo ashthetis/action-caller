@@ -1,0 +1,9 @@
+name: alpha
+on: [push]
+jobs:
+  test_actions_docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        id: tester
+        run: ./starter.sh
