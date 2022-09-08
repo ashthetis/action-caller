@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Test private action
         run: |
-          cd ./
+          cd ./action-caller
           ls
           pwd
       - name: test
