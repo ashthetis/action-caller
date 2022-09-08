@@ -4,7 +4,6 @@ jobs:
   test_actions_docker:
     runs-on: ubuntu-latest
     steps:
-      - uses: ashthetis/action-caller@main
       - name: Test private action
         run: |
           ls ./
